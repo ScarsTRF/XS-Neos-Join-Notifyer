@@ -16,3 +16,7 @@ You can also install this as a service under Service installers folder and click
 If you no longer wish to have it as a service, you can uninstall it with the uninstall.bat.
 
 The logiX for the Notifyer is in my Public folder (Scar Vorrix [Public]) and will more or less change quickly to make it more lightweight on the client and user end. Expect changes please.
+
+This setup will allow the logiX to handle what is shown in the XS Overlay Notification making it flexible to what you want it to say
+
+It currently supports notificaitons for Joining,Leaving, and Spawning and will also work across multiple worlds displaying the world as well with it if you are not currently focused to it.
