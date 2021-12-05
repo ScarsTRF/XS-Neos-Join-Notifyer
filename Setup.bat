@@ -1,0 +1,1 @@
+npm i dgram express ws nodemon node-windows

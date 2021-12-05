@@ -1,0 +1,1 @@
+node ../serviceuninstall.js
