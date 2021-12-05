@@ -14,3 +14,5 @@ Please be aware that this folder should not be moved or deleted as the code runs
 You can also install this as a service under Service installers folder and clicking on install.bat do not move the folder after this or the service will break.
 
 If you no longer wish to have it as a service, you can uninstall it with the uninstall.bat.
+
+The logiX for the Notifyer is in my Public folder (Scar Vorrix [Public]) and will more or less change quickly to make it more lightweight on the client and user end. Expect changes please.
