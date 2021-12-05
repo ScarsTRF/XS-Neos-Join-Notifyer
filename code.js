@@ -18,8 +18,6 @@ wss.on('connection', (ws) => {
     });
 
     ws.on('message', function incoming(message) {
-        var ip = String(ws._socket.remoteAddress);
-        ip = ip.split('::ffff:').pop();
 
         let json = JSON.stringify({
             "messageType": 1,
@@ -39,7 +37,7 @@ wss.on('connection', (ws) => {
         
         let toSend = json.toString("base64");
         let server = dgram.createSocket('udp4');
-        server.send(toSend, 42069, ip, function () {
+        server.send(toSend, 42069, 'localhost', function () {
             server.close();
         });
     });
