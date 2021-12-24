@@ -1,1 +1,1 @@
-nodemon code.js
+node code.js
